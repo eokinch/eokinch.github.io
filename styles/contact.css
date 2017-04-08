@@ -387,9 +387,7 @@ form {
     header .logo {
       -webkit-transform: scale(0.5);
       -ms-transform: scale(0.5);
-      transform: scale(0.5); }
-  nav {
-    width: 85%; } }
+      transform: scale(0.5); } }
 
 form textarea {
   width: 90%;
