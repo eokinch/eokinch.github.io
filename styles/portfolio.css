@@ -230,6 +230,8 @@ nav {
     float: right; }
     header nav ul li {
       margin: 0 2px 0 2px; }
+  flickity-viewport {
+    height: 600px; }
   .gallery {
     padding-top: 40px; }
     .gallery img {
