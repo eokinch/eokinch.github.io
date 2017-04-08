@@ -311,47 +311,16 @@ nav {
     height: 80px; }
     header a {
       width: 25%; }
+    header nav {
+      width: 75%; }
   .logo {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.5);
     transform: scale(0.5);
     margin: 0; }
   nav {
-    color: white;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
     padding-right: 5px;
     width: 75%; }
-    nav ul {
-      list-style: none;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-flex-grow: 0.2;
-      -ms-flex-positive: 0.2;
-      flex-grow: 0.2;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
-      nav ul a {
-        color: white; }
-    nav .fa {
-      font-size: 20px; }
   .group {
     height: 250px;
     width: 300px; }
