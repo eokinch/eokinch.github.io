@@ -175,6 +175,9 @@ nav {
 @media (max-width: 480px) {
 	header {
 		height: 80px;
+		a {
+			width: 25%;
+		}
 	}
 	.logo {
 		transform: scale(0.5);
@@ -184,6 +187,7 @@ nav {
 		@include nav (0.2, space-between);
 		justify-content: flex-end;
 		padding-right: 5px;
+		width: 75%
 	}
 
 	.group {

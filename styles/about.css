@@ -309,6 +309,8 @@ nav {
 @media (max-width: 480px) {
   header {
     height: 80px; }
+    header a {
+      width: 25%; }
   .logo {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.5);
@@ -330,7 +332,8 @@ nav {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding-right: 5px; }
+    padding-right: 5px;
+    width: 75%; }
     nav ul {
       list-style: none;
       display: -webkit-flex;
