@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iain Kinch Photography - Portfolio</title>
+	<link rel="stylesheet" href="styles/portfolio.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
+</head>
+<body>
+<header>
+	<a href="index.html" class="left">
+		<div class="logo">
+			<h1>Iain<span>Kinch</span></h1>
+			<h2>Photography</h2>
+		</div>
+	</a>
+	<nav>
+		<ul>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="https://www.instagram.com/i.w.kinch/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		</ul>	
+	</nav>
+</header>
+<main>
+	<div class="gallery wrapper">
+		<img src="images/911.jpg" alt="">
+		<img src="images/Flag.jpg" alt="">
+		<img src="images/bridge.jpg" alt="">
+		<img src="images/NYC.jpg" alt="">
+		<img src="images/lion.jpg">
+		<img src="images/car.jpg" alt="">
+		<img src="images/Smokestack.jpg" alt="">
+		<img src="images/doorway.jpg" alt="">
+		<img src="images/house.jpg" alt="">
+		<img src="images/adrian.jpg" alt="">
+		<img src="images/plant.jpg" alt="">
+		<img src="images/Birdie.jpg" alt="">
+		<img src="images/central-park.jpg" alt="">
+		<img src="images/NYC2.jpg" alt="">
+		<img src="images/NYC3.jpg" alt="">
+	</div>
+</main>	
+<footer></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script>
+	<script src="https://use.fontawesome.com/53d043a168.js"></script>
+	<script>
+		 $(function() {
+        	$('.gallery').flickity(
+        		{
+        			imagesLoaded: true,
+        			wrapAround: true,
+        		}	
+        		);
+    	});
+
+
+	</script>
+</body>
+</html>
