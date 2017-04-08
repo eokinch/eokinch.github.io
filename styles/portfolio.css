@@ -204,8 +204,7 @@ nav {
     margin: 0 auto; }
 
 .gallery {
-  padding-top: 20px;
-  height: 600px; }
+  padding-top: 20px; }
   .gallery img {
     position: fixed;
     display: block;
