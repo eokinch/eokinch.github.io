@@ -379,7 +379,10 @@ form {
     -ms-transform: scale(0.5);
     transform: scale(0.5); }
   nav {
-    font-size: 14px; }
+    font-size: 14px;
+    -webkit-flex-grow: 0.2;
+    -ms-flex-positive: 0.2;
+    flex-grow: 0.2; }
   form textarea {
     width: 90%;
     height: 250px; }

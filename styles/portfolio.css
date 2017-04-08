@@ -234,7 +234,10 @@ nav {
     -ms-transform: scale(0.5);
     transform: scale(0.5); }
   nav {
-    font-size: 14px; }
+    font-size: 14px;
+    -webkit-flex-grow: 0.2;
+    -ms-flex-positive: 0.2;
+    flex-grow: 0.2; }
   .gallery {
     padding-top: 50px; }
     .gallery img {
