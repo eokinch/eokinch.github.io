@@ -139,6 +139,22 @@ nav {
 		
 	}
 
+	header {
+		a {
+			width: 15%;
+			.logo {
+				margin: 0;
+			}
+		}
+		nav {
+			width : 85%;
+			float: right;
+			ul li {
+				margin:0 2px 0 2px;
+			}
+		}
+	}
+
 	.left {
 		display: none;
 	
@@ -160,7 +176,6 @@ nav {
 		height: 200px;
 		width: 600px;
 		background: rgba(0,0,0, 0.7);
-		// margin: 0 0 60px 20px ;
 	}
 }
 
