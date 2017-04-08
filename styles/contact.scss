@@ -18,6 +18,7 @@ a {
 
 header {
 	background: #111;
+	height: 100px;
 	padding-bottom: 20px;
 }
 
@@ -187,6 +188,22 @@ form {
 		background-size: cover;
 		height: 100vh;
 	}
+
+	header {
+		a {
+			width: 15%;
+			.logo {
+				margin: 0;
+			}
+		}
+		nav {
+			width : 85%;
+			float: right;
+			ul li {
+				margin:0 2px 0 2px;
+			}
+		}
+	}
 	
 	.left {
 		width: 0;
@@ -266,19 +283,16 @@ form {
 
 
 @media (max-width: 480px) {
+
 	header {
 		height: 80px;
-	}
-	.logo {
-		transform: scale(0.5);
-		margin: 0;
-		width: 25%;
-	}
-	nav {
-		@include nav (0.2, space-between);
-		justify-content: flex-end;
-		padding-right: 5px;
-		width: 75%;
+		.logo {
+			transform: scale(0.5);
+			}
+		}
+		nav {
+			width : 85%;
+		}
 	}
 
 	form {
@@ -293,8 +307,6 @@ form {
 			width: 40%;
 		}
 	}
-
-}
 
 
 
