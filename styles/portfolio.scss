@@ -20,6 +20,7 @@ header {
 	background: #111;
 }
 
+
 nav {
 	@include nav (0.4, space-around);
 	justify-content: flex-end;
@@ -56,6 +57,23 @@ nav {
 
 
 @media (max-width: 768px) {
+
+	header {
+		a {
+			width: 15%;
+			.logo {
+				margin: 0;
+			}
+		}
+		nav {
+			width : 85%;
+			float: right;
+			ul li {
+				margin:0 2px 0 2px;
+			}
+		}
+	}
+
 	.gallery {
 		padding-top: 40px;
 		img {
@@ -68,16 +86,13 @@ nav {
 @media (max-width: 480px) {
 	header {
 		height: 80px;
-	}
-	.logo {
-		transform: scale(0.5);
-		margin: 0;
-	}
-	nav {
-		@include nav (0.2, space-between);
-		justify-content: flex-end;
-		padding-right: 5px;
-
+		.logo {
+			transform: scale(0.5);
+			}
+		}
+		nav {
+			width : 85%;
+		}
 	}
 
 	.gallery {
@@ -87,5 +102,4 @@ nav {
 		}
 
 	}
-}
 
