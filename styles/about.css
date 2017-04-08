@@ -311,16 +311,16 @@ nav {
     height: 80px; }
     header a {
       width: 25%; }
+      header a .logo {
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        margin: 0;
+        height: 60px;
+        width: 100px; }
     header nav {
-      width: 75%; }
-  .logo {
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
-    margin: 0; }
-  nav {
-    padding-right: 5px;
-    width: 75%; }
+      width: 75%;
+      float: right; }
   .group {
     height: 250px;
     width: 300px; }
