@@ -203,14 +203,6 @@ nav {
     font-weight: 200;
     margin: 0 auto; }
 
-.gallery {
-  padding-top: 20px; }
-  .gallery img {
-    position: fixed;
-    display: block;
-    height: 100%;
-    margin: 1%; }
-
 @media (max-width: 950px) {
   .wrapper {
     width: 98%;
