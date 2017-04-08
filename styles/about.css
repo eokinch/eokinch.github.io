@@ -137,6 +137,7 @@ body {
 
 header {
   background: #111;
+  height: 100px;
   padding-bottom: 20px; }
 
 main {
@@ -318,20 +319,15 @@ nav {
 @media (max-width: 480px) {
   header {
     height: 80px; }
-    header a {
-      width: 15%; }
-      header a .logo {
-        -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(0.5);
-        margin: 0; }
-    header nav {
-      width: 85%;
-      float: right; }
-      header nav ul li {
-        margin: 0 2px 0 2px; }
-  .group {
-    height: 250px;
-    width: 300px; }
-    .group h3 {
-      margin: 0; } }
+    header .logo {
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5); }
+  nav {
+    width: 85%; } }
+
+.group {
+  height: 250px;
+  width: 300px; }
+  .group h3 {
+    margin: 0; }

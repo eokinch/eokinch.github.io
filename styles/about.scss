@@ -9,6 +9,7 @@ body {
 
 header {
 	background: #111;
+	height: 100px;
 	padding-bottom: 20px;
 }
 
@@ -190,19 +191,12 @@ nav {
 @media (max-width: 480px) {
 	header {
 		height: 80px;
-		a {
-			width: 15%;
-			.logo {
-				transform: scale(0.5);
-				margin: 0;
+		.logo {
+			transform: scale(0.5);
 			}
 		}
 		nav {
 			width : 85%;
-			float: right;
-			ul li {
-				margin:0 2px 0 2px;
-			}
 		}
 	}
 
@@ -213,7 +207,6 @@ nav {
 			margin: 0;
 		}
 	}
-}
 
 
 
