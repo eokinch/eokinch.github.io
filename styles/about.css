@@ -315,9 +315,7 @@ nav {
         -webkit-transform: scale(0.5);
         -ms-transform: scale(0.5);
         transform: scale(0.5);
-        margin: 0;
-        height: 60px;
-        width: 100px; }
+        margin: 0; }
     header nav {
       width: 75%;
       float: right; }
