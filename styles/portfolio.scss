@@ -71,10 +71,13 @@ nav {
 	}
 	.logo {
 		transform: scale(0.5);
+		margin: 0;
 	}
 	nav {
-		font-size: 14px;
-		flex-grow: 0;
+		@include nav (0.2, space-between);
+		justify-content: flex-end;
+		padding-right: 5px;
+
 	}
 
 	.gallery {
