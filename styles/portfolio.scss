@@ -66,8 +66,11 @@ nav {
 
 
 @media (max-width: 480px) {
+	header {
+		height: 80px;
+	}
 	.logo {
-		transform: scale(0.6);
+		transform: scale(0.5);
 	}
 	nav {
 		font-size: 14px;
