@@ -209,6 +209,7 @@ nav {
   .gallery img {
     position: fixed;
     display: block;
+    height: 100%;
     margin: 1%; }
 
 @media (max-width: 950px) {
