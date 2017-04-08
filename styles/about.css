@@ -319,6 +319,8 @@ nav {
     header nav {
       width: 75%;
       float: right; }
+      header nav ul li {
+        margin: 0 2px 0 2px; }
   .group {
     height: 250px;
     width: 300px; }
