@@ -1,0 +1,51 @@
+@mixin logo ($margin) {
+	color: black;
+	padding: 10px;
+	margin: $margin;
+	height: 0;
+	width: 0;
+	h1 {
+		font-size: 35px;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
+	span {
+		display: block;
+	}
+	h2 {
+		display: block;
+		font-size: 19px;
+		font-weight: 200;
+		margin: 0 auto;
+	}
+}
+
+@mixin bg-width ($width) {
+	display: flex;
+	width: $width;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@mixin nav($grow, $JC) {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		flex-grow: $grow;
+		justify-content: $JC;
+		a {
+			color: white;
+		}
+	}
+	.fa {
+		font-size: 20px;
+	}
+}
