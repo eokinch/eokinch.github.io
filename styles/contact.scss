@@ -119,6 +119,9 @@ form {
 		border: none;
 		padding: 9px 20px;
 	}
+	h3 {
+			display: none;
+		}
 }
 
 @media (max-width: 940px) {
@@ -170,9 +173,6 @@ form {
 		textarea {
 		width: 325px;
 		height: 250px;
-		}
-		h3 {
-			display: none;
 		}
 	}
 }

@@ -276,6 +276,8 @@ form {
     color: #A9A9A9;
     border: none;
     padding: 9px 20px; }
+  form h3 {
+    display: none; }
 
 @media (max-width: 940px) {
   .left {
@@ -310,9 +312,7 @@ form {
       width: 275px; }
     form textarea {
       width: 325px;
-      height: 250px; }
-    form h3 {
-      display: none; } }
+      height: 250px; } }
 
 @media (max-width: 768px) {
   body {
